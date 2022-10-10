@@ -1,0 +1,232 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+}
+/*flex classes*/
+.d-flex{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+.flex-column{
+    -webkit-box-orient:vertical;
+    -webkit-box-direction:normal;
+    -ms-flex-direction:column;
+    flex-direction:column;
+}
+.justify-content-start{
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.justify-content-end{
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+.justify-content-center{
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.justify-content-between{
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.justify-content-around{
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+.justify-content-evenly{
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+}
+
+.align-items-start{
+    -webkit-box-align:start;
+    -ms-flex-align:start;
+    align-items:flex-start;
+}
+.align-items-end{
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+.align-items-center{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.align-items-baseline{
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline;
+}
+.align-items-stretch{
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+/*alignment*/
+.text-center{
+    text-align: center;
+}
+/**margin en paddings**/
+.m-1{
+    margin:16px;
+}
+.m-2{
+    margin:20px;
+}
+.m-3{
+    margin:24px;
+}
+.m-4{
+    margin:40px;
+}
+.m-5{
+    margin:48px;
+}
+.p-1{
+    padding:16px;
+}
+.p-2{
+    padding:20px;
+}
+.p-3{
+    padding:24px;
+}
+.p-4{
+    padding:40px;
+}
+.p-5{
+    padding:48px;
+}
+.w-30{
+    width:30%;
+}
+.w-50{
+    width:50%;
+}
+.w-70{
+    width:70%;
+}
+.w-100{
+    width:100%;
+}
+
+/* eigen css */
+/** root colors **/
+:root{
+    --blue: rgba(80,148,242,1);
+    --red:rgba(217,71,72,1);
+    --yellow:rgba(235,187,17,1);
+}
+/**einde root colors */
+/* fonts */
+
+.upper{
+    text-transform: uppercase; /*zet om naar hoofdletters*/
+}
+
+.lower{
+    text-transform: lowercase; /* zet om naar kleine letters */
+}
+.capital{
+    text-transform: capitalize; /* eerste letter naar hoofdletter*/
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+/** begin eigen html **/
+body{
+    background-color: #4e73df;
+    height: 100vh;
+    font-family:sans-serif;
+}
+#contactformulier{
+    width:906px;
+    height:579px;
+    background:#fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius:20px;}
+#bgimage {
+    background: url(https://source.unsplash.com/K4mSJ7kc0As/600x800);
+    background-position: center;
+    background-size: cover;
+    height: inherit;
+}
+form{
+    padding:48px;
+}
+input[type=email], input[type=password]{
+    display: block;
+    width: 100%;
+    padding: 16px 12px;
+    line-height: 1.5;
+    color: #6e707e;
+    background-color: #fff;
+    border: 1px solid #d1d3e2;
+    border-radius: 45px;
+    margin-bottom:10px;
+
+}
+label{
+    color: #6e707e;
+    margin-bottom:10px;
+}
+.btn{
+    display: block;
+    width: 100%;
+    color: #fff;
+    background-color: #4e73df;
+    border:none;
+    text-align: center;
+    padding: 16px 12px;
+    border-radius: 45px;
+    margin-bottom:10px;
+}
+hr,h2{
+    margin-bottom:20px;
+}
+.btngoogle{
+    background:#ea4335;
+}
+.btnfacebook{
+    background:#3b5998;
+}
+form div{
+
+    margin-top:40px;
+}
+form button a{
+color:#fff;
+    text-decoration: none;
+padding-left:5px;
+  }
+
+form div a{
+    color:#4e73df;
+    text-decoration: none;
+    background-color: transparent;
+
+}
+#login{
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+
+/** einde begin html **/
